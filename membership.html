@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PowerFit Gym - Unleash Your Strength</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/membership.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <a href="index.html">PowerFit Gym</a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html" class="back-button">
+                        <span class="back-arrow">&#8592;</span> Home
+                    </a></li>
+                    <li><a href="index.html#about-us">About Us</a></li>
+                    <li><a href="programs.html" class="next-button">
+                        <span class="next-arrow">&rarr;</span> Explore Programs
+                    </a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+   
+  
+<section class="hero">
+    <h2>Join PowerFit Gym Today</h2>
+    <p>Sign up to achieve your fitness goals with state-of-the-art facilities and expert trainers!</p>
+    <a href="#membership-form-container" class="explore-btn">Join Now</a>
+</section>
+
+<div class="page-wrapper">
+    <div class="form-wrapper">
+        <form class="membership-form-container">
+            
+            <div class="form-group">
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name" name="first-name" placeholder="John" required>
+                <div id="first-name-error" class="error-message"></div>
+            </div>
+            <div class="form-group">
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" name="last-name" placeholder="Doe" required>
+                <div id="last-name-error" class="error-message"></div>
+            </div>
+
+           
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="example@domain.com" required>
+                <div id="email-error" class="error-message"></div>
+            </div>
+
+           
+            <div class="form-group">
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Format: 123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                <div id="phone-error" class="error-message"></div>
+            </div>
+
+            
+            <div class="form-group">
+                <label for="street-address">Street Address:</label>
+                <input type="text" id="street-address" name="street-address" placeholder="123 Fitness Ave" required>
+            </div>
+            <div class="form-group">
+                <label for="city">City:</label>
+                <input type="text" id="city" name="city" placeholder="City Name" required>
+            </div>
+            <div class="form-group">
+                <label for="state">State:</label>
+                <input type="text" id="state" name="state" placeholder="State/Region" required>
+            </div>
+            <div class="form-group">
+                <label for="zip-code">Postal/Zip Code:</label>
+                <input type="text" id="zip-code" name="zip-code" placeholder="12345" required>
+            </div>
+            <div class="form-group">
+                <label for="country">Country:</label>
+                <select id="country" name="country" required>
+                    <option value="" disabled selected>Select Your Country</option>
+                    <option value="USA">USA</option>
+                    <option value="Canada">Canada</option>
+                    <option value="Kenya">Kenya</option>
+                    <option value="Australia">Australia</option>
+                    <option value="UK">UK</option>
+                </select>
+            </div>
+
+            
+            <div class="form-group">
+                <label for="fitness-goals">What are your fitness goals?</label>
+                <select id="fitness-goals" name="fitness-goals" required>
+                    <option value="" disabled selected>Select an option</option>
+                    <option value="weight-loss">Weight Loss</option>
+                    <option value="muscle-gain">Muscle Gain</option>
+                    <option value="endurance">Endurance Training</option>
+                    <option value="flexibility">Flexibility & Yoga</option>
+                    <option value="general-health">General Health & Wellness</option>
+                </select>
+            </div>
+
+            
+            <div class="form-group">
+                <label>Choose Your Membership Plan:</label>
+                <div class="radio-group">
+                    <input type="radio" id="basic" name="membership-plan" value="Basic" required>
+                    <label for="basic">Basic</label>
+
+                    <input type="radio" id="premium" name="membership-plan" value="Premium" required>
+                    <label for="premium">Premium</label>
+
+                    <input type="radio" id="vip" name="membership-plan" value="VIP" required>
+                    <label for="vip">VIP</label>
+                </div>
+            </div>
+
+           
+            <div class="form-group">
+                <label for="comments">Tell us about your fitness journey:</label>
+                <textarea id="comments" name="comments" placeholder="Share your fitness goals or inspirations..."></textarea>
+            </div>
+
+           
+            <div class="terms-section">
+                <input type="checkbox" id="terms" name="terms" required>
+                <label for="terms">I agree to the <a href="#" class="terms-link">terms and conditions</a>.</label>
+            </div>
+
+           
+            <button type="submit" class="submit-button">Sign Up</button>
+        </form>
+    </div>
+   </div> 
+  
+   
+
+<footer>
+    <div class="footer-content">
+        <p>&copy; 2024 PowerFit Gym. All Rights Reserved.</p>
+        <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </div>
+
+    
+    <div class="social-media">
+        <a href="https://www.facebook.com/PowerFitGym" target="_blank">
+            <img src="images/icons/f.png" class="social-icon" alt="Facebook">
+            <span class="social-link">PowerFit Gym</span>
+        </a>
+        <a href="https://www.linkedin.com/in/PowerFitGym" target="_blank">
+            <img src="images/icons/l.png" class="social-icon" alt="LinkedIn">
+            <span class="social-link">PowerFit Gym</span>
+        </a>
+        <a href="https://twitter.com/PowerFit_Gym" target="_blank">
+            <img src="images/icons/t.png" class="social-icon" alt="Twitter">
+            <span class="social-link">PowerFit_Gym</span>
+        </a>
+        <a href="https://www.instagram.com/PowerFit_Gym" target="_blank">
+            <img src="images/icons/i.jpeg" class="social-icon" alt="Instagram">
+            <span class="social-link">PowerFit_Gym</span>
+        </a>
+    </div>
+</footer>
+
+
+
+
+    <script src="js/main.js"></script>
+    <script src="js/slideshow.js"></script>
+</body>
+</html>
